@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 24px;
+}
+
+/* Frame Container */
+.frame-container {
+    display: flex;
+    height: 85vh; /* Full screen minus header */
+}
+
+/* Frames */
+iframe {
+    border: none;
+}
+
+/* Left Frame */
+iframe[name="left-frame"] {
+    width: 30%;
+    background: #ddd;
+}
+
+/* Right Frame */
+iframe[name="right-frame"] {
+    width: 70%;
+    background: white;
+}
+
+/* Links */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #333;
+    margin: 5px 0;
+    padding: 10px;
+    text-align: center;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+ul li:hover {
+    background: #575757;
+}
+/* Style for Header */
+.header {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    position: relative;
+}
+
+/* Home Button */
+.home-button {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    padding: 8px 15px;
+    background: white;
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.home-button:hover {
+    background: #45a049;
+    color: white;
+}
